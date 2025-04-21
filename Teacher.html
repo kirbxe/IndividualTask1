@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/contacts.css">
+    <link rel="stylesheet" href="styles/headers.css">
+    <link rel="stylesheet" href="styles/student.css">
+    <script src="scripts/acc-script.js" defer></script>
+    <script src="scripts/check-courseswork.js" defer></script>
+    
+    <title>Курсач!</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="logo">
+            <h1>Курсач!</h1>
+        </div>
+        <div class="head-menu">
+        <nav>
+            <ul>
+                <li class="nav-element">
+                   <a class="element-link" href="mainpage.html" >Главная</a>
+                </li>
+                <li class="nav-element" id="nav-element">
+                    <a class="element-link" href="Teacher.html">Проверка курсовых работ</a>
+                </li>
+                <li class="nav-element">
+                    <a class="element-link" href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="acc-selector">
+            <div class="acc-title" id="acc-title">
+            </div>
+            <div class="acc-icon">
+               <a class="acc-information" href="account-page.html"> <img src="images/icons8-person-96 1.svg" alt=""></a>
+                </div>
+            </div>
+        </div> 
+        <button id="burger-btn" class="header__burger-btn">
+        <span></span><span></span><span></span>
+        </button>
+            </header>
+    <main>
+        <div class="form-load-courseswork">
+            <div class="frame-card">
+                <div class="load-courseswork-title card-title">
+                    <h1 style="font-size: 50px;">Актуальные заявки</h1>
+                </div>  
+            <div class="card" id="card" style="display: none;">
+
+                <p class="card-fullname card-row"><strong>ФИО:</strong> <span id="card-fullname"></span></p>
+                <p class="card-group card-row"><strong>Группа:</strong> <span id="card-group"></span></p>
+                <p class="card-theme card-row"><strong>Тема:</strong> <span id="card-theme"></span></p>
+                <p class="card-file card-row"><strong>Файл:</strong> <span id="card-file"></span></p>
+                <a class="card-row" id="file-link" target="_blank" href="#">Скачать файл</a>
+            </div>
+    
+            </div>
+            
+    </div>
+    </main>
+   
+</body>
+</html>
