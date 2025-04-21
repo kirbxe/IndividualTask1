@@ -14,7 +14,7 @@ category.textContent = `Кафедра: ${savedUser.group}`
 
 }else if(savedUser.rang == "Студент"){
 
-category.textContent = `Группа: ${savedUser.group}`
+category.innerHTML = `<strong>Группа:</strong> ${savedUser.group}`
 
 }else{
 
