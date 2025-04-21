@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/regpage.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="scripts/index.js" defer></script>
+    <title>Курсач!</title>
+</head>
+<body>
+        
+    <main>
+<div class="reg-block">
+<div class="logo"><h1>Курсач!</h1></div>
+<div class="form-block">
+<form  action="">
+        <input class="form-elements" type="text" id="name" required placeholder="Введите имя">
+        <input class="form-elements"   type="email" required id="email" placeholder="Введите почту"> 
+        <input class="form-elements" type="password" id="password" required placeholder="Введите пароль">
+        <select class="form-elements" name="select-rang" id="select-rang">
+            <option>Выберите должность</option>
+            <option >Студент</option>
+            <option>Преподаватель</option>
+            <option>Администрация</option>
+        </select>  
+        <select class="form-elements" name="select-group" id="select-group" style="display: none;">
+        </select>   
+</form>
+<button style="width: 300px; height: 35px;" class="form-elements btn-form-elements" onclick="regAcc()">Зарегестрироваться</button> 
+
+</div>
+    <span class="frame-for-data" id="frame-for-data">
+    </span>
+</div>
+</main>
+    
+
+<script>
+    if (typeof jQuery == 'undefined') {
+        console.error('jQuery не подключен!');
+    } else {
+        console.log('jQuery ' + jQuery.fn.jquery + ' успешно загружен!');
+    }
+</script>
+</body>
+</html>
