@@ -10,7 +10,7 @@ userNameRow.textContent = savedUser.login;
 emailRow.textContent = savedUser.email
 rangRow.textContent = savedUser.rang
 if(savedUser.rang == "Преподаватель"){
-category.textContent = `Кафедра: ${savedUser.group}`
+category.innerHTML = `<strong>Кафедра:</strong> ${savedUser.group}`
 
 }else if(savedUser.rang == "Студент"){
 
