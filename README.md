@@ -1,1 +1,1 @@
-# IndividualTask1 Makarov chinazes
+# IndividualTask1 Makarov
