@@ -1,0 +1,150 @@
+.title-frame-contact{
+
+    color: #2B569A;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.frame-contact{
+
+margin-top: 50px;
+
+}
+.block-contact{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.contact-cards{
+display: flex;
+}
+.contact-card{
+
+width: 400px;
+height: 500px;
+background-color: white;
+border: 1px grey solid;
+border-radius: 50px;
+
+}
+.contact-card:not(:last-child){
+
+margin-right: 10px;
+
+}
+/*Заголовок контакта и иконка*/
+.up-card{
+
+display: flex;
+justify-content: space-between;
+margin: 20px 30px;
+
+
+}
+.icon-img{
+
+width: 35px;
+height: 35px;
+}
+.card-title{
+text-align: center;
+font-size: 35px;
+font-weight: 500;
+
+}
+
+.card-icon{
+
+background-color: white;
+border: 1px rgb(155, 154, 154) solid;
+width: 60px;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+/*Информация кантактов*/
+.card-info{
+
+font-size: 25px;
+margin: 0px 30px;
+font-weight: 300;
+
+
+}
+.date-time{
+
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.work-status{
+    color: green;
+    padding: 5px;
+    background-color:   rgb(161, 231, 161);
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.number-info{
+
+margin-top: 40px;
+
+
+}
+.city-num:not(:first-child){
+
+margin-top: 10px;
+
+}
+.city{
+
+
+color: #2B569A;
+text-decoration: underline;
+}
+.num{
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+.cyrcle-info{
+border:1px #2B569A solid;
+height: 60px;
+border-radius: 50px;
+margin-top: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cyrcle-img{
+width: 30px;
+margin-right: 10px;
+}
+.cyrcle-text{
+
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+@media (max-width:1200px) {
+    
+.contact-cards{
+
+    display: block;
+}
+.contact-card:not(:last-child){
+
+    margin-bottom: 20px;
+}
+
+    
+}
+

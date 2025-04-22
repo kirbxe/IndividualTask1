@@ -1,0 +1,45 @@
+#comments-not-access {
+    display: none;
+    max-width: 302px;
+    max-height: 100px;
+    margin-left: 10px;
+    width: 100%;
+    border: 1px #2B569A solid;
+    font-size: 15px;
+    background-color: rgb(230, 230, 230);
+    transition: .2s ;
+  }
+  #comments-not-access:focus{
+  transition: .2s ;
+    background-color: white;
+    border: 1px #2B569A solid;
+  }
+  .access-form{
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .select-grade{
+    background-color: #2B569A;
+    padding-left:10px ;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius:15px ;
+
+  }
+  .btn-save-grade{
+
+    display: none;
+    width: 150px;
+    background-color: #2B569A;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    margin-left: 10px;
+  
+  }
+ 

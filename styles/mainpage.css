@@ -1,0 +1,60 @@
+.title-mainpage{
+    text-align: center;
+    color: #2B569A;
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.subtitle-mainpage{
+
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    color: #2B569A;
+    font-weight: 500;
+}
+.useful-articles{
+margin-right: 10px;
+margin-left: 10px;
+
+}
+.cards-useful-articles{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-article{
+width: 500px;
+padding: 20px 20px 20px 20px;
+border: 1px #2B569A solid;
+border-radius: 13px;
+margin: 10px;
+}
+.title-card{
+font-size: 25px;
+font-weight: 600;
+}
+.description-card{
+margin-top: 10px;
+font-size:17px ;
+margin-bottom: 10px;
+text-align: left;
+}
+.btn-card{
+    width: 100%;
+    background-color: #2B569A;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    height: 30px;
+    transition: .2s ease;
+}
+
+.btn-card:active{
+
+    background: #1d3a69;
+    transition: 0.2s ease;
+
+}
+

@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Yeseva One';
+    src: url('../font/YesevaOne-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+    margin: 0 auto;
+    font-family: 'Raleway'; 
+}
+
+.header {
+
+    display: flex;
+    height: 60px;
+    background-color: #2B569A;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.logo h1{
+    
+    font-size: 45px;
+    color: white;
+    margin: 0 auto;
+    font-family: 'Yeseva One';
+    }
+
+nav{
+
+margin: 0px 20px;
+
+}
+nav ul{
+display: flex;
+
+}
+.nav-element{
+color: white;
+list-style: none;
+
+
+}
+.nav-element:not(:last-child){
+    margin-right: 40px;
+}
+.element-link{
+color: white;
+text-decoration: none;
+}
+.acc-title{
+max-width: 250px;
+color: white;
+}
+.acc-selector{
+
+display: flex;
+align-items: center;
+
+}
+.acc-information img{
+width: 40px;
+height: 40px;
+
+}
+
+
+@media (max-width:920px) { 
+.acc-title{
+    display: none;
+}
+}
+ .head-menu{
+  width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+} 
+.header__burger-btn{
+display: none;
+width: 40px;
+height: 40px;
+background-color: #2B569A;
+border: none;
+
+}
+.header__burger-btn span{
+position: absolute;
+width: 30px;
+height: 3px;
+background-color: white;
+right: 35px;
+transition: transform .5s, opacity .5s, background-color .5s;
+border-radius: 50px;
+
+}
+.header__burger-btn span:nth-child(1){
+
+  transform: translateY(-10px)
+}
+.header__burger-btn span:nth-child(3){
+
+    transform: translateY(10px);
+}
+
+@media (max-width: 690px) { 
+    .header__burger-btn{
+        display: block;
+        z-index: 2;
+    }
+ .head-menu{
+        width: 290px;
+        position: absolute;
+        right: -329px;
+        top: 0;
+        background-color: #2B569A;
+        padding: 70px 20px 20px 20px;
+    transition: transform .5s;
+        }
+    nav ul{
+        flex-direction: column;
+
+    }
+    .nav-element:not(:last-child){
+
+        margin-bottom: 10px;
+    }
+    .element-link{
+        font-size: 18px;
+        
+    
+    }
+    .header.open .head-menu{
+
+        transform: translateX(-100%);
+    }
+         
+    .header.open .header__burger-btn span:nth-child(2){
+
+        opacity: 0;
+    }
+    
+    .header.open .header__burger-btn span:nth-child(1){
+        transform: rotate(45deg);
+        
+    }
+    .header.open .header__burger-btn span:nth-child(3){
+        transform: rotate(-45deg);
+        
+    }
+   
+
+
+    
+}
+
+
+
+
+
