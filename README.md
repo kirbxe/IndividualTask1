@@ -1,1 +1,1 @@
-# IndividualTask1 Makarov
+# IndividualTask1
